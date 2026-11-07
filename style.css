@@ -6,7 +6,7 @@
 body { margin:0; background:var(--fond); color:var(--texte); font-family: Georgia, "Times New Roman", serif; line-height:1.5; }
 main { max-width:680px; margin:0 auto; padding:24px 16px 48px; }
 h1 { margin:8px 0 4px; font-size:1.8rem; }
-.intro { margin-top:0; opacity:.8; }
+.intro { margin-top:0; opacity:.8; white-space: pre-line; }
 form { background:var(--carte); border:1px solid var(--bord); border-radius:12px; padding:20px; }
 label { display:block; font-weight:bold; margin:14px 0 6px; }
 input[type=text], textarea { width:100%; padding:10px 12px; font:inherit; color:inherit; background:transparent; border:1px solid var(--bord); border-radius:8px; }
