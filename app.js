@@ -12,6 +12,7 @@
   form.addEventListener("submit", async function (e) {
     e.preventDefault();
     var nom = form.nom.value.trim();
+    var pseudo = form.pseudo.value.trim();
     var histoire = form.histoire.value.trim();
     if (!nom || !histoire) return;
 
@@ -35,6 +36,7 @@
           from_name: "Jeu des histoires",
           joueur: "Joueur " + window.JOUEUR,
           nom: nom,
+          pseudonyme: pseudo || "(aucun)",
           histoire: histoire,
           botcheck: form.botcheck.checked
         })
